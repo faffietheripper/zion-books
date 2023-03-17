@@ -1,0 +1,86 @@
+html {
+  scroll-behavior: smooth;
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  --wht: #f8f8f8;
+  --blk: #28282b;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+*::before {
+  box-sizing: border-box;
+}
+
+::after {
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 320px;
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  line-height: 1.6;
+  color: var(--blk);
+  background-color: var(—wht);
+}
+
+/**
+General styling / Elements
+**/
+
+/**
+Images
+**/
+
+img {
+  width: 100%;
+  display: block;
+}
+
+/**
+Buttons / Links / li
+**/
+
+a,
+button {
+  font-family: inherit;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+/**
+Typography
+**/
+
+.thin {
+  font-weight: 300;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+/**
+Layout
+**/
+
+.container {
+  width: 90%;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+/*
+Media Queries
+**/
